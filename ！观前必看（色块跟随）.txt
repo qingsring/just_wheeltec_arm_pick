@@ -1,0 +1,8 @@
+*说明:
+①视频中出现的机械臂可能与您手上使用的机械臂不同，运行效果也有些许不同，但是代码原理都是相同的
+②视频中运行的指令和文件名称可能与六自由度机械臂小车有些许不同，下面将对不同之处进行指出
+③launch文件中的内容会有些许不同，因为在六自由度机械臂小车中，我们将功能不需要修改参数的启动部分都集成了wheeltec_arm_six功能包中的base_serial.launch中，可以到base_serial.launch中查找对应功能找到相应的启动文件
+
+六自由度机械臂小车：
+1.运行机械臂色块跟随命令：
+roslaunch wheeltec_tracker_pkg  color_tracking.launch
